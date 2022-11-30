@@ -1,0 +1,92 @@
+@font-face {
+    font-family: Birthday;
+    src: url(Brightly\ Crush.ttf);
+}
+body{
+    text-align: center;
+    font-family: Birthday;
+    background: linear-gradient(#a2d2ff,#EFB0C9);
+    color: #ffffff;
+}
+#avatar{
+    width: 170px;
+    border: 6px solid #EFB0C9 ;
+    border-radius: 100px;
+}
+
+h1, h2, h3, h4, p{
+    text-shadow: 0px 0px 3px black;
+}
+
+#bd-age{
+    background: #EFB0C9 ;
+    padding: 6px 12px;
+    border-radius: 5px;
+    margin: 10px 0px 10px 0px;
+}
+#bd-date{
+    background: #EFB0C9 ;
+    padding: 6px 12px;
+    border-radius: 5px;
+    margin:0px;
+
+}
+#header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.gift-cover{
+    margin: 0 auto;
+    width: 400px;
+    height: 400px;
+    background-image: url("gift-cover.jpg");
+    background-size: cover;
+    border: 5px solid white;
+    border-radius: 10px;
+}
+.gift-section{
+    margin-top: 50px;
+}
+.gift-hint{
+    margin: 10px 0px 10px 0px;
+
+}
+.gift-title{
+    margin: 10px 0px 10px 0px;
+}
+#gift-cover-happy:hover{
+    background-image: url("happy.gif");
+}
+
+#gift-cover-welcome:hover{
+    background-image: url("powitanie.gif");
+}
+#gift-cover-genius:hover{
+    background-image: url("love.jpg");
+}
+#gift-cover-badass:hover{
+    background-image: url("stalin.webp");
+}
+#gift-cover-friend{
+    height: 200px;
+}
+
+#gift-cover-friend:hover{
+    background-image: url("cheers.jpeg");
+
+
+}
+.link{
+    color: #ffffff;
+}
+
+#footer{
+    margin: 40px auto 20px;
+    width: 400px;
+    font-style: italic;
+    
+}
+
